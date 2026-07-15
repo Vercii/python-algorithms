@@ -9,7 +9,7 @@ class Student:
         else:
             return "Failed"
     def display(self):
-        print("Name:",student.name,"\nAge:",student.age,"\nScore:", student.score, "\nStatus:", self.passed(),"\n")
+        print("Name:",self.name,"\nAge:",self.age,"\nScore:", self.score, "\nStatus:", self.passed(),"\n")
 
 students = [
     Student("John", 70, 23),
